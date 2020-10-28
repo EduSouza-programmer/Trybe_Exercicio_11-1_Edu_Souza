@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img alt="Image Trybe" src="https://i.ibb.co/d4W2x4g/trybe.png" width="400px" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+  Exercício 11-1: Introdução à React, Hello World! - Concluído o/ o/ o/ :star:
+</h3>
 
-## Available Scripts
+<blockquote align="center">“Quanto mais você estuda, mais aprende e se aproxima de realizar seu sonhos!”</blockquote>
 
-In the project directory, you can run:
+<h1></h1>
 
-### `npm start`
+<p align="center">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <a href="https://www.linkedin.com/in/eduardosouzaprogrammer/">
+    <img alt="Made by Eduardo Souza" src="https://img.shields.io/badge/made%20by-Edu%20Souza-%23F8952D">
+  </a>&nbsp;
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ <a href="https://edusouza-programmer.github.io/">
+<img alt="Github page Edu Souza " src="https://img.shields.io/badge/Github%20page-Edu_Souza-orange">
+</a>&nbsp;
 
-### `npm test`
+  <a href="LICENSE" >
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F8952D">
+  </a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</p>
 
-### `npm run build`
+<p align="center">
+  <a href="#rocket-Sobre-o-Exercício">Sobre o Exercício</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#postbox-Entrega">Entrega</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#unlock-Licença">Licença</a>
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# :rocket: Sobre o Exercício
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Hoje você vai conhecer os primeiros conceitos do React, os pilares sobre os quais a equipe do Facebook/Instagram o fez, assim como o motivo de essa tecnologia ter tido adoção tão massiva nos últimos anos.
+Vamos ver o que diferencia React de JavaScript e depois vamos ver um pouco sobre classes. Ao final do dia vamos ter todas as informações para codar um componente básico em React!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Você será capaz de : 
 
-### `npm run eject`
+- Saber a melhor forma para instalar um gerenciador de pacotes.
+- Inicializar um projeto em React
+- Utilizar JSX no React
+- Utilizar o ReactDOM.render para renderizar elementos numa página web.
+- Utilizar o import para usar código externo junto ao seu.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# :postbox: Entrega
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### :clipboard: Sumário
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- <p><a href="#1"> :pushpin: 1.</a> Crie um novo projeto utilizando npx create-react-app nome-app e acesse a pasta nome-app;</p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- <p><a href="#1"> :pushpin: 2.</a> Crie uma lista de tarefas simples seguindo os passos abaixo...;</p>
 
-## Learn More
+- <p><a href="#3"> :pushpin: 3.</a> Crie um novo projeto utilizando npx create-react-app nome-app e acesse a pasta nome-app;</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- <p><a href="#4"> :pushpin: 4.</a> Crie um novo projeto utilizando npx create-react-app nome-app e acesse a pasta nome-app;</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## :books: Exercícios
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 1° && 2°
 
-### Analyzing the Bundle Size
+- [x] Crie um novo projeto utilizando npx create-react-app nome-app e acesse a pasta nome-app,
+- [x] Crie uma lista de tarefas simples seguindo os passos abaixo:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- insira a função a seguir acima do seu App:
 
-### Making a Progressive Web App
+```js
+const task = (value) => {
+	return <li>{value}</li>;
+}
+``` 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [x] agora, chame a função dentro do seu componente App (não se esqueça da sintaxe JSX!). Insira o valor que você quiser, salve a página e inicie-a rodando o comando npm start.	
 
-### Advanced Configuration
+- [x] por fim, crie uma array de compromissos e use a função map para que cada item do array apareça, como um item de lista, no seu componente App.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#### Resposta:
 
-### Deployment
+<details>
+ <summary> :pencil2: Código Javascript</summary>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```js
+import './App.css';
 
-### `npm run build` fails to minify
+const commitments = ['Estudar', 'Aprender', 'Ajudar', 'Xablau1', 'Xablau2'];
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+const task = value => {
+  return <li key={value}>{value}</li>;
+};
+
+const populateCommitmentList = () => {
+  return commitments.map(commitment => task(commitment));
+};
+
+function App() {
+  return <ul>{populateCommitmentList()}</ul>;
+}
+
+export default App;
+```
+
+</details>
+
+<p align="right">
+    <a href="#clipboard-Sumário">
+    <img alt="Back Sumário" src="https://img.shields.io/badge/Back-Sum%C3%A1rio-orange">
+  </a>
+</p>
+
+#
+
+## :unlock: Licença
+
+Este projeto está licenciado sob a Licença MIT - consulte [LICENSE](https://opensource.org/licenses/MIT) para maiores detalhes.
