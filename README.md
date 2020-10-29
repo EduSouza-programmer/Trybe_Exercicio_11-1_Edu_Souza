@@ -49,9 +49,9 @@ Vamos ver o que diferencia React de JavaScript e depois vamos ver um pouco sobre
 
 ### :clipboard: Sumário
 
-- <p><a href="#1-&&-2"> :pushpin: 1.</a> Crie um novo projeto utilizando npx create-react-app nome-app e acesse a pasta nome-app;</p>
+- <p><a href="#1°-&&-2°"> :pushpin: 1.</a> Crie um novo projeto utilizando npx create-react-app nome-app e acesse a pasta nome-app;</p>
 
-- <p><a href="#1-&&-2"> :pushpin: 2.</a> Crie uma lista de tarefas simples seguindo os passos abaixo...;</p>
+- <p><a href="#1°-&&-2°"> :pushpin: 2.</a> Crie uma lista de tarefas simples seguindo os passos abaixo...;</p>
 
 - <p><a href="#3"> :pushpin: 3.</a> Acesse este link e faça cada um dos exercícios em ordem, sendo o último o "Create a Component with Composition";</p>
 
