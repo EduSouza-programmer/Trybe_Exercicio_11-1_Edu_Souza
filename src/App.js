@@ -2,16 +2,23 @@ import './App.css';
 
 const commitments = ['Estudar', 'Aprender', 'Ajudar', 'Xablau1', 'Xablau2'];
 
-const Task = value => {
-  return <li key={value}>{value}</li>;
+const Task = props => {
+  return <li>{props.commitment}</li>;
 };
 
-const populateCommitmentList = () => {
-  return commitments.map(commitment => Task(commitment));
+const PopulateCommitmentList = props => {
+  const commits = props.commitments;
+  return commits.map(commitment => (
+    <Task key={commitment} commitment={commitment} />
+  ));
 };
 
 function App() {
-  return <ul>{populateCommitmentList()}</ul>;
+  return (
+    <ul>
+      <PopulateCommitmentList commitments={commitments} />
+    </ul>
+  );
 }
 
 export default App;
