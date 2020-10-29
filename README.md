@@ -53,7 +53,7 @@ Vamos ver o que diferencia React de JavaScript e depois vamos ver um pouco sobre
 
 - <p><a href="#1"> :pushpin: 2.</a> Crie uma lista de tarefas simples seguindo os passos abaixo...;</p>
 
-- <p><a href="#3"> :pushpin: 3.</a> Crie um novo projeto utilizando npx create-react-app nome-app e acesse a pasta nome-app;</p>
+- <p><a href="#3"> :pushpin: 3.</a> Acesse este link e faça cada um dos exercícios em ordem, sendo o último o "Create a Component with Composition";</p>
 
 - <p><a href="#4"> :pushpin: 4.</a> Crie um novo projeto utilizando npx create-react-app nome-app e acesse a pasta nome-app;</p>
 
@@ -100,6 +100,163 @@ function App() {
 }
 
 export default App;
+```
+
+</details>
+
+<p align="right">
+    <a href="#clipboard-Sumário">
+    <img alt="Back Sumário" src="https://img.shields.io/badge/Back-Sum%C3%A1rio-orange">
+  </a>
+</p>
+
+#
+
+### 3° 
+
+Acesse este _[link](https://www.freecodecamp.org/learn/front-end-libraries/react/)_ e faça cada um dos exercícios em ordem, sendo o último o "Create a Component with Composition".
+
+#### Resposta:
+
+<details>
+ <summary> :pencil2: Código Javascript</summary>
+
+```js
+// Create a Simple JSX Element
+const JSX = <h1>Hello JSX</h1>;
+
+/* --------------- */
+// React: Create a Complex JSX Element
+const JSX = (<div>
+    <h1></h1>
+    <p></p>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>)
+
+/* ------------------ */
+
+// React: Add Comments in JSX
+const JSX = (
+  <div>
+  {/* To começando a gosta :) */}
+    <h1>This is a block of JSX</h1>
+    <p>Here's a subtitle</p>
+  </div>
+);
+
+/* ----------------------- */
+
+// React: Render HTML Elements to the DOM
+const JSX = (
+  <div>
+    <h1>Hello World</h1>
+    <p>Lets render this to the DOM</p>
+  </div>
+);
+// Change code below this line
+
+ReactDOM.render(JSX, document.getElementById('challenge-node'))
+
+/* ------------------------------------------ */
+
+// React: Define an HTML Class in JSX
+const JSX = (
+  <div className='myDiv'>
+    <h1>Add a class to this div</h1>
+  </div>
+);
+
+/* ------------------------------------- */
+
+// React: Learn About Self-Closing JSX Tags
+const JSX = (
+  <div>
+    <h2>Welcome to React!</h2> <br />
+    <p>Be sure to close all tags!</p>
+    <hr />
+  </div>
+);
+
+/* ----------------------------------- */
+
+// React: Create a Stateless Functional Component
+const MyComponent = function() {
+  // Change code below this line
+
+return <div>Legal esta interessante</div>
+
+  // Change code above this line
+}
+
+/* ----------------------------------- */
+
+// React: Create a React Component
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    // Change code below this line
+return <div><h1>Hello React!</h1></div>
+
+
+    // Change code above this line
+  }
+};
+
+/* --------------------------------------- */
+
+// React: Create a Component with Composition
+const ChildComponent = () => {
+  return (
+    <div>
+      <p>I am the child</p>
+    </div>
+  );
+};
+
+class ParentComponent extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <div>
+        <h1>I am the parent</h1>
+        { /* Change code below this line */ }
+          <ChildComponent/>
+
+        { /* Change code above this line */ }
+      </div>
+    );
+  }
+};
+```
+
+</details>
+
+<p align="right">
+    <a href="#clipboard-Sumário">
+    <img alt="Back Sumário" src="https://img.shields.io/badge/Back-Sum%C3%A1rio-orange">
+  </a>
+</p>
+
+#
+
+### 4° 
+
+
+#### Resposta:
+
+<details>
+ <summary> :pencil2: Código Javascript</summary>
+
+```js
+
 ```
 
 </details>
