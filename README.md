@@ -60,7 +60,8 @@ Vamos ver o que diferencia React de JavaScript e depois vamos ver um pouco sobre
 
 ## :books: Exercícios
 
-### 1° - 2°
+### 1°  
+### 2°
 
 - [x] Crie um novo projeto utilizando npx create-react-app nome-app e acesse a pasta nome-app,
 - [x] Crie uma lista de tarefas simples seguindo os passos abaixo:
