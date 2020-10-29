@@ -55,7 +55,7 @@ Vamos ver o que diferencia React de JavaScript e depois vamos ver um pouco sobre
 
 - <p><a href="#3"> :pushpin: 3.</a> Acesse este link e faça cada um dos exercícios em ordem, sendo o último o "Create a Component with Composition";</p>
 
-- <p><a href="#4"> :pushpin: 4.</a> Crie um novo projeto utilizando npx create-react-app nome-app e acesse a pasta nome-app;</p>
+- <p><a href="#4"> :pushpin: 4.</a> Bônus Por último, entenda como funciona o código deste link. Adicione mais dois cards com descrição e link a sua escolha.</p>
 
 
 ## :books: Exercícios
@@ -249,6 +249,7 @@ class ParentComponent extends React.Component {
 
 ### 4° 
 
+Bônus Por último, entenda como funciona o código deste _[link](https://codepen.io/nathansebhastian/pen/qgOJKe)_. Adicione mais dois cards com descrição e link a sua escolha.
 
 #### Resposta:
 
@@ -256,6 +257,7 @@ class ParentComponent extends React.Component {
  <summary> :pencil2: Código Javascript</summary>
 
 ```js
+
 
 ```
 
